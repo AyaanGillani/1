@@ -1,0 +1,4 @@
+<script>
+  const k = ["marshmallow","screwdriver","pancake"];
+  document.write("<h1>" + k[Math.floor(Math.random()*k.length)] + "</h1>");
+</script>
