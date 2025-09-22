@@ -1,0 +1,5 @@
+<h1 id="heading"></h1>
+<script type="text/javascript">
+  const k = ["astronaut","hammock","pancake"];
+  document.getElementById("heading").innerHTML = `<span>${k[Math.floor(Math.random()*k.length)]}</span>`;
+</script>
