@@ -1,0 +1,10 @@
+<h1 id="heading"></h1>
+<script>
+  const pairs = [
+    { word: "marshmallow", url: "https://www.spacelint.org" },
+    { word: "screwdriver", url: "https://www.purplekoala.biz" },
+    { word: "volcano", url: "https://www.butterpickle.net" }
+  ];
+  const pick = pairs[Math.floor(Math.random()*pairs.length)];
+  document.getElementById("heading").innerHTML = `<a href="${pick.url}" target="_blank">${pick.word}</a>`;
+</script>
