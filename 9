@@ -1,0 +1,8 @@
+<h1 id="heading"></h1>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const keywords = ["pancake","astronaut","jellyfish","blender","hammock"];
+    document.getElementById("heading").textContent = 
+      keywords[Math.floor(Math.random()*keywords.length)];
+  });
+</script>
