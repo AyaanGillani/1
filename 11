@@ -1,0 +1,7 @@
+<h1 id="heading"></h1>
+<script>
+  (function(){
+    const k = ["trapezoid","blender","jellyfish"];
+    document.getElementById("heading").textContent = k[Math.floor(Math.random()*k.length)];
+  })();
+</script>
